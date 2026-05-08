@@ -7,7 +7,7 @@ export default function ChallengeCard() {
       
         <div className="w-36 h-7 bg-pink-200 rounded-full" />
 
-        
+        <div></div>
         <h2 className="text-3xl font-bold text-gray-900 leading-tight">
           Read 10 pages<br />of a book
         </h2>
