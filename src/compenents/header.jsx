@@ -2,32 +2,32 @@
 export default function Header() {
   return (
     <div className="flex items-start justify-between px-4 pt-6 pb-2 bg-pink-100">
-      {/* Left: Avatar + Greeting */}
+
       <div className="flex flex-col gap-1">
-        {/* Avatar icon */}
+      
         <div className="w-10 h-10 flex items-center justify-center">
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10">
             <circle cx="20" cy="14" r="7" stroke="#1a1a1a" strokeWidth="2.2" fill="none" />
             <path d="M6 36c0-7.732 6.268-14 14-14s14 6.268 14 14" stroke="#1a1a1a" strokeWidth="2.2" fill="none" strokeLinecap="round" />
-            {/* dot accent */}
+            
             <circle cx="8" cy="6" r="2" fill="#1a1a1a" />
             <circle cx="32" cy="6" r="2" fill="#1a1a1a" />
           </svg>
         </div>
 
-        {/* Greeting */}
+  
         <div className="flex items-center gap-1">
           <span className="text-2xl font-bold text-gray-900 leading-tight">Hello.Aya</span>
           <span className="text-2xl">✋</span>
         </div>
 
-        {/* Subtitle */}
+        
         <p className="text-sm text-gray-600 font-normal">Lets make today amazing</p>
       </div>
 
-      {/* Right: Settings + Sparkle */}
+
       <div className="relative mt-1">
-        {/* Purple circle background */}
+      
         <div className="w-14 h-14 rounded-full bg-purple-300 flex items-center justify-center">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-7 h-7">
             <path
